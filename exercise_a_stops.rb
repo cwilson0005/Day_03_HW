@@ -17,7 +17,7 @@ p stops
 # 4. Work out the index position of `"Linlithgow"`
 # A. position 5
 
-p stops[5]
+p stops.index("Linlithgow")
 # 5. Remove `"Livingston"` from the array using its name
 stops.delete("Linlithgow")
 
@@ -32,9 +32,12 @@ p stops.count()
 # 8. How many ways can we return `"Falkirk High"` from the array?
 
   # return stops("Falkirk High")
-  # return stops(2)
+  # return stops[2]
   # return stops.take(2)
   # return stops.drop(1)
+  # return stops[-5]
+  # return stops.fetch(2)
+  # return stops.at(2)
 
 # 9. Reverse the positions of the stops in the array
 p stops.reverse
